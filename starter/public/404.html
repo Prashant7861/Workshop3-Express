@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="icon" type="image/png" href="/Laurea_favicon.png">
+    <style>
+        .error-container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .error-code {
+            font-size: 120px;
+            font-weight: bold;
+            color: #e74c3c;
+            margin: 0;
+            line-height: 1;
+        }
+
+        .error-message {
+            font-size: 24px;
+            color: #555;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/api/time">API Time</a>
+    </nav>
+
+    <div class="container error-container">
+        <div class="error-code">404</div>
+        <h1 class="error-message">🔍 Page Not Found</h1>
+
+        <div class="card">
+            <p>Oops! The page you're looking for doesn't exist.</p>
+            <p>This 404 error is being handled by <strong>Express middleware</strong>.</p>
+
+            <div class="btn-group">
+                <a href="/" class="btn">← Go Home</a>
+                <a href="/about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Workshop 03 - Express.js | © Jari Kovis. Adapted for the course by Juho Kastemaa.</p>
+    </footer>
+</body>
+
+</html>
